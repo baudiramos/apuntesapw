@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Formularios II</title>
+</head>
+<body>
+    <form action="#" method="GET">
+        <p>
+        <label for="name">Nombre</label>
+        <!-- Max length longitud de caracteres -->
+        <!-- Disabled para que no pueda escribir -->
+        <!-- Place holder para que se muestre en el  cuadro -->
+        <input id="name" type="text" maxlength="10 /" size="14" / placeholder="Introducir Nombre" value="Baudi" required>
+        </p>
+        p
+    <p>
+        <h2>Elija el sexo</h2>
+        <!-- Propeidad Radio para hacer elecciones de respuestas -->
+        <!--  Propiedad Name para que solo podamos seleccionar un campo -->
+        <!-- Submit  -->
+        <input name="sexo" id="female" type="radio" value="Hembra">
+        <label for="female">Hembra</label>
+        <input name="sexo" id="male" type="radio" value="Macho">
+        <label for="male">Macho</label>
+    </p>
+    <p>
+        <h3>
+            Seleccione los vehículos
+        </h3>
+        <input id="bici" name="vehiculos" type="checkbox" value="Bicicleta">
+        <label for="bici">Bicicleta</label>
+        <input id="coche" name="vehiculos" type="checkbox" value="Coche">
+        <label for="moto">Coche</label>
+        <input id="moto" name="vehiculos" type="checkbox" value="Moto">
+        <label for="moto">Moto</label>
+    </p>
+    <p>
+        <h3>Enviar Formulario</h3>
+        <input value="Haz click" type="submit" name="" id="">
+    </p>
+    <p>
+        <label for="age">Edad</label>
+        <input id="age" type="number" min="5" max="10">
+    </p>
+    <p>
+        <h3>Fecha de nacimiento</h3>
+        <input type="date" id="nace">
+    </p>
+    <p>
+        <h3>Contraseña</h3>
+        <input type="password" id="pass">
+    </p>
+    <p>
+        <h3>Boton normal</h3>
+        <button class="button blue" type="button">Prueba a hacer click</button>
+        <button onclick="comproba()" class="button green" type="button">Prueba a hacer click</button>
+    </p>
+
+    <p>
+        <!-- option para hacer una lista desplegable -->
+            <select name="ciudad" id="ciudad_id>
+            <option value="1">París</option>
+            <option value="2">Madrid </option>
+            <option value="3" selected>Tenerife</option>
+            <option value="4">Las Palmas</option>
+        </select>
+    </p>
+    <p>
+        <label for="email">Introduce correo</label>
+        <input required type="email" name="" id="email">
+    </p>
+    <p>
+        <label for="based">Base</label>
+        <input id="based" type="number">
+    </p>
+    <p>
+        <label for="altura">Altura</label>
+        <input id="altura" type="number">
+    </p>
+    <p>
+        <button onclick="basee()" class="button green" type="button">Calcular</button>
+    </p>
+    <p style="margin-top: 50px; margin-bottom: 50px;">
+    <input onclick="validar()" type="submit" value="Haz click para Enviar"></p>
+    <p>
+        <!-- textarea crea cuadro para escribir dentro de el -->
+     <textarea name="opinion" id="opinion" cols="80" rows="10">
+         Hola
+     </textarea>   
+    </p>
+
+</form>
+    
+    <script src="./js/app.js"></script>
+</body>
+</html>

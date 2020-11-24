@@ -1,0 +1,19 @@
+body {
+    box-sizing: border-box;
+}
+div {
+    /* Coge siempre  el ancho del navegador siempre */
+    border: 2px solid rgba(3, 88, 216, .6);
+    background-color: rgba(3, 88, 216, .1);
+    /*  Ancho y alto solo funciona en etiqueta img y todos los de bloque */
+    height: 150px;
+    width: 300px;
+}
+a {
+    border: 2px solid red;
+    height: 150px;
+    width: 300px;
+}
+.div2 {
+    height: 50%;
+}

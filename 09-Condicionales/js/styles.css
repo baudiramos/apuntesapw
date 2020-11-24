@@ -1,0 +1,32 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #000;
+  background-color: rgb(180, 193, 233);
+}
+
+.form-element {
+  margin-bottom: 16px;
+}
+
+input {
+  border: 1px solid rgb(71, 41, 241);
+
+}
+/* Para elegir a un tipo de etiqueta */
+input:not[type=text] {
+  border: 1px solid red;
+}
+
+.centrado {
+  margin-top: 20px;
+  text-align: center;
+}
+.

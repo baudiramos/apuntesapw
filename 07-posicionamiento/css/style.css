@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 1000px;
+}
+.mayusculas {
+    font-variant: small-caps;
+}
+.container {
+    border: 2px dashed steelblue;
+    width: 500px;
+    height: 400px;
+    padding: 24px;
+    margin: 24px auto;
+    position: relative;
+
+}
+.uno {
+    color: #444;
+    font-size: 33px;
+    line-height: 1.5;
+    padding: 6px;
+    text-align: center;
+    background-color: rgba(172.216.236.7);
+/* Posicionamiento STATIC 
+* es el posicionamiento por defecto de todos los elementos
+* Las propiedades top, left, right, bottom
+* no tienen ningun efecti
+*Ejemplo:
+* position: static;
+* top: 200px;
+* left: 200px;*/
+
+
+/* Posicionamiento RELATIVE 
+* Sigue el flujo del documento al igual que STATIC,
+* pero los elementos se posicionarán 
+* respecto al lugar donde estarían (posición original)
+* con las propiedades top, left, buttom, right
+* Ejemplo:
+        position: relative;
+        top: 100px;
+        left: -50px;*/
+        
+/* 
+* Posicionamiento ABSOLUTE
+*El elemnto sale del flujo normal, el espacio
+*   que cocupaba el elemento desaparece
+*    (es ocupado). El acnho del elementoqueda
+*   definido por el contenido
+*  Se posicionará respecto al primer parrafo que este 
+*   posicionado, es decir, tengo la propiedad position
+*   establecido. En caso contrario sería respecto al body.
+*   Ejemplo:
+*   position: absolute;
+*   rigth: 0px;
+*   bottom: 0px;
+*/
+    /* position: absolute;
+    right: 0px;
+    bottom: 0px; */
+    position: absolute;
+    right: 40px;
+    bottom: 250px;
+/* 
+* Posicionamiento FIXED
+*   Se posicionará respecto a la esquina superior
+*       izquierda del navegador.
+*      Se pierde el espacio que ocupaba.
+*       Ejemplo:
+*           position: fixed;
+*           left: 0px;
+*/
+
+/* position: fixed;
+left: 0px;
+} */
